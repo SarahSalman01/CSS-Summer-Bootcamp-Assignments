@@ -83,6 +83,7 @@ figure img {
 .hero-text p {
     color: #555;
 }
+
 /*NAVIGATION */
 
 nav {
@@ -193,7 +194,7 @@ article {
 
 article:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
 }
 
 article h3 {
@@ -215,9 +216,7 @@ article a:hover {
     text-decoration: underline;
 }
 
-/* ==========================
-   CONTACT FORM
-========================== */
+/* CONTACT FORM */
 
 form {
     margin-top: 1rem;
@@ -268,9 +267,7 @@ button:hover {
     background-color: #16327a;
 }
 
-/* ==========================
-   FOOTER
-========================== */
+/*FOOTER*/
 
 footer {
     background-color: #1f3b8f;
@@ -293,9 +290,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* ==========================
-   RESPONSIVE DESIGN
-========================== */
+/*RESPONSIVE DESIGN */
 
 @media (max-width: 768px) {
 
@@ -339,12 +334,13 @@ footer a:hover {
         width: 100%;
         margin-bottom: 0.8rem;
     }
-    header {
-    flex-direction: column;
-    text-align: center;
-}
 
-.hero-text {
-    max-width: 100%;
-}
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
 }

@@ -1,6 +1,4 @@
-/* ==========================
-   GLOBAL RESET
-========================== */
+/* GLOBAL RESET*/
 
 * {
     margin: 0;
@@ -8,9 +6,7 @@
     box-sizing: border-box;
 }
 
-/* ==========================
-   BODY
-========================== */
+/* BODY*/
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -32,9 +28,7 @@ ul {
     list-style: none;
 }
 
-/* ==========================
-   NAVIGATION
-========================== */
+/* NAVIGATION*/
 
 header {
     background-color: #0f3d91;
@@ -72,14 +66,12 @@ nav ul li a:hover,
     color: #8fc8ff;
 }
 
-/* ==========================
-   HERO SECTION
-========================== */
+/*HERO SECTION*/
 
 .hero {
     max-width: 1200px;
-    margin: 3rem auto;
-    padding: 3rem;
+    margin: 18px auto;
+    padding: 30px;
 
     display: flex;
     justify-content: space-between;
@@ -131,9 +123,7 @@ nav ul li a:hover,
     border-radius: 20px;
 }
 
-/* ==========================
-   FEATURED COLLECTION
-========================== */
+/* FEATURED COLLECTION */
 
 .featured {
     max-width: 1200px;
@@ -189,9 +179,7 @@ nav ul li a:hover,
     margin-bottom: 1rem;
 }
 
-/* ==========================
-   FEATURES
-========================== */
+/* FEATURES */
 
 .features {
     max-width: 1200px;
@@ -224,7 +212,7 @@ nav ul li a:hover,
 
 .feature-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgba(0,0,0,.15);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .15);
 }
 
 .feature-box h3 {
@@ -232,9 +220,7 @@ nav ul li a:hover,
     margin-bottom: 1rem;
 }
 
-/* ==========================
-   NEWSLETTER
-========================== */
+/* NEWSLETTER*/
 
 .newsletter {
     background: #0f3d91;
@@ -273,9 +259,7 @@ nav ul li a:hover,
 }
 
 
-/* ==========================
-   FOOTER
-========================== */
+/* FOOTER*/
 
 footer {
     background: #0f3d91;
@@ -285,9 +269,7 @@ footer {
     margin-top: 3rem;
 }
 
-/* ==========================
-   RESPONSIVE DESIGN
-========================== */
+/* RESPONSIVE DESIGN*/
 
 @media (max-width: 768px) {
 
